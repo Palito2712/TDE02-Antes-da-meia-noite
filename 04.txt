@@ -1,0 +1,11 @@
+list = []
+
+while len(list) < 7:
+
+    numero = int(input("Por favor, digite um número: "))
+    list.append(numero)
+
+    if len(list) == 6:
+
+        print(list[5], list[4], list[3], list[2], list[1], list[0])
+        break
